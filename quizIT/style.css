@@ -1,0 +1,135 @@
+ :root {
+    background-color: #121212;
+}
+body{
+    font-family: Poppins;
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-size: 62.5%;
+}
+
+
+h1 {
+    font-size: 5.4rem;
+    color: #fff;
+    margin-bottom: 5rem;
+}
+
+
+
+h2 {
+    font-size: 3.2rem;
+    margin-bottom: 1rem;
+}
+
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    max-width: 80 rem;
+    align-items: center;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+.flex-column {
+    display: flex;
+    flex-direction: column;  
+}
+
+.flex-center {
+    justify-content: center;
+    align-items: center;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.hidden {
+    display: none;
+}
+
+.btn {
+    font-size: 2.4rem;
+    padding: 2rem 0;
+    width: 30rem;
+    text-align: center;
+    margin-bottom: 1rem;
+    text-decoration: none;
+    color: rgb(28, 26, 26);
+    background: #FADCD9;
+    border-radius: 4px;
+}
+
+.btn:hover{
+    cursor: pointer; 
+    box-shadow:0 0.4rem 1.4rem 0 rgba(254, 152, 141, 0.9);
+    transition: transform 150ms;
+    transform: scale(1.07);
+}
+
+.bth[disabled]:hover{
+    cursor: not-allowed;
+    box-shadow: none;
+    transform: none;
+}
+
+#ranks-btn{
+    background: #f4e4d6;
+}
+
+#ranks-btn:hover{
+
+    box-shadow:0 0.4rem 1.4rem 0 rgba(254, 203, 198, 0.9);
+
+}
+
+/*End Page*/
+
+.end-form-container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+input{
+    font-family: poppins;
+    margin-bottom: 1rem;
+    width: 7rem;
+    padding: 1.5rem;
+    font-size: 1.8rem;
+    border: none;
+    box-shadow:0 0.4rem 1.4rem 0 rgba(254, 203, 198, 0.9);
+}
+input::placeholder{
+    color: #aaa;
+    font-family: poppins;
+}
+
+#username{
+    margin-bottom: 3rem;
+    width: 100%;
+    outline: none;
+}
+
+#end-text{
+    font-size: 2.4ren;
+    color: #fff;
+    text-align: center;
+}
+
+#saveScoreBtn{
+    border: none;
+}
